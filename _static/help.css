@@ -1,4 +1,4 @@
-@import url("cloud.css");
+@import url("theme.css");
 h1 {
     background-color: #aeaeae !important;
 }
@@ -34,4 +34,7 @@ img.sp {
 }
 .align-bottom {
     vertical-align: middle;
+}
+.wy-breadcrumbs {
+    display: none;
 }
