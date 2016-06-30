@@ -21,7 +21,7 @@ dt[id^='term'] {
     font-style:bold;
 }
 img.sp { 
-    max-height: 200px;
+    max-height: 280px;
     margin-left: auto;
     margin-right: auto;
     display: block;
