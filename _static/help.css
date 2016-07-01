@@ -37,3 +37,12 @@ img.sp {
 .wy-breadcrumbs {
     display: none;
 }
+.wy-table-responsive {
+    margin-left :-24px;
+    margin-right :0px;
+    font-size:40%;
+}
+.wy-table-responsive td, .wy-table-responsive th{
+    max-width:200px;
+    padding:5px !important;
+]
