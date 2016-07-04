@@ -20,10 +20,15 @@ dt[id^='term'] {
     font-size: 100%;
     font-style:bold;
 }
+.icon icon-home {
+    width:70%;
+}
 img.sp { 
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: auto ;
+    max-height:400px;
 }
 .related li:last-child {
     visibility: hidden;
@@ -41,7 +46,28 @@ img.sp {
     margin-left :-24px;
     margin-right :0px;
 }
+.wy-table-responsive table {
+    max-width :300px;
+    width:250px;
+ 
+    }
+.wy-table-responsive tr,.wy-table-responsive thead,.wy-table-responsive caption,.wy-table-responsive tbody {
+    margin: 0;
+    }
+
 .wy-table-responsive td, .wy-table-responsive th{
-    max-width:200px;
+    font-size:70%;
     padding:5px !important;
-]
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    }
+table.docutils td:last-child {
+    width:100%;
+
+}
+.toctree-l1 li{
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+footer p {font-size:60%;}
